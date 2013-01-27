@@ -1,0 +1,35 @@
+
+
+
+#coming{
+      background:#006AFF;
+      width:580px;
+      text-align:center;
+}
+
+/* ---------------------------------< Main_Time_Remain >----------------------------*/
+#pe_Time{margin-top:90px;float:left;background:#A0A0A0;width:580px;}
+/* city block */
+div.city-block {font-size:10px; overflow: hidden; width:150px; height:180px; position:relative;margin:20px;}
+div.city-block a {display:block; position:absolute; width:150px; height:340px;}
+div.city-block a:hover {text-decoration:none;}
+div.city-block img {display:block; margin: 0 5px 5px 5px;}
+div.city-block div.city-meta {margin: 0 10px 10px 10px; color: #000;}
+div.city-block div.city-meta span.city-name {display:block; font-size:1.2em; font-weight: bold; color:#000; letter-spacing: -0.05em; padding-bottom:5px;}
+div.city-block div.city-meta span.city-timeto {display:block; font-size:2.2em; font-weight: bold;  color:#da0000; letter-spacing: -0.05em; }
+
+
+/* this is hidden by default... */
+div.city-block div.city-meta span.city-date {display:block; font-size:1.2em; line-height: 1.2em; padding-top:15px;}
+div.city-block div.city-meta span.city-start,
+div.city-block div.city-meta span.city-end, 
+div.city-block div.city-meta span.city-door {display:block; font-size:1.2em; line-height: 1.2em;}
+div.city-block div.city-meta span.city-place {display:block; font-size:1.2em; line-height: 1.2em; padding-top:15px;}
+.city-image{display: block; overflow: hidden; height: 130px; margin-top: 0px; margin-bottom: 0px; padding-top: 0px; padding-bottom: 0px;}
+
+/* night top page */
+div#countdown-holder {padding-bottom:20px;}
+div#countdown-holder div.city-block {float:left; margin-bottom:10px;}/*event form margin*/
+div#countdown-holder div.city-block div.city-meta {color: #006AFF;}/*event information color*/
+div#countdown-holder div.city-block span.city-name {color:#E5E5E5;}/*cityname Color*/
+div#countdown-holder div.city-block span.city-timeto {color:#DA0000;}/*TimeCountColor*/

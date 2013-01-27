@@ -1,0 +1,58 @@
+--
+-- 테이블 구조 `Pecha_Notice`
+--
+CREATE TABLE IF NOT EXISTS `Pecha_Member` (
+  `user_id` varchar(20) NOT NULL,
+  `user_password` varchar(40) DEFAULT NULL,
+  `user_password_q` varchar(255) DEFAULT NULL,
+  `user_password_a` varchar(255) DEFAULT NULL,
+  `user_name` varchar(10) DEFAULT NULL,
+  `user_nickname` varchar(10) DEFAULT NULL,
+  `user_sex` char(1) DEFAULT NULL,
+  `user_age` int(11) DEFAULT NULL,
+  `user_birthday` date DEFAULT NULL,
+  `user_email` varchar(40) DEFAULT NULL,
+  `user_address` varchar(255) DEFAULT NULL,
+  `user_phonenum` varchar(10) DEFAULT NULL,
+  `user_homepage` varchar(100) DEFAULT NULL,
+  `user_mailing` char(2) DEFAULT NULL,
+  `user_sms` char(2) DEFAULT NULL,
+  `user_profile` text,
+  `user_recommend` varchar(20) DEFAULT NULL,
+  `user_level` int(4) DEFAULT '3',
+  `user_login_time` datetime DEFAULT NULL,
+  `user_login_ip` varchar(16) DEFAULT NULL,
+  `user_jointime` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `user_ip` varchar(16) DEFAULT NULL,
+  PRIMARY KEY (`user_id`)
+)
+
+--
+-- 테이블 구조 `Pecha_Notice`
+--
+
+CREATE TABLE IF NOT EXISTS `Pecha_Notice` (
+  `title` text,
+  `content` text,
+  `write_time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `article_no` int(11) NOT NULL AUTO_INCREMENT,
+  PRIMARY KEY (`article_no`)
+)
+
+--
+-- 테이블 구조 `Pecha_Event`
+--
+
+CREATE TABLE IF NOT EXISTS `Pecha_Event` (
+  `city` varchar(20) DEFAULT NULL,
+  `location` varchar(40) DEFAULT NULL,
+  `volume` int(11) DEFAULT NULL,
+  `day` date DEFAULT NULL,
+  `startTime` time DEFAULT NULL,
+  `endTime` time DEFAULT NULL,
+  `mem_price` int(11) DEFAULT NULL,
+  `Nonmem_price` int(11) DEFAULT NULL,
+  `currency` varchar(2) DEFAULT NULL,
+  `remain_Time` double DEFAULT NULL
+)
+

@@ -1,0 +1,1 @@
+mysqldump wpb_22 > mydb.sql -u USERNAME -pPASSWORD

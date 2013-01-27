@@ -1,0 +1,106 @@
+#content{
+	font-family: tahoma "µ¸¿ò";
+	font-size: 13px;
+}
+
+table {
+	width: 100%; /* »óÀ§element ³ÐÀÌÀÇ90% Â÷Áö*/
+	border-collapse: collapse; /* cell »çÀÌÀÇspace¾ø¾Ú*/
+	margin: 5px; /* ¹Ù±ù¿©¹é10px */
+	border-bottom : 2px solid #EDEDED;
+}
+
+th {
+   background-color: #F2F5F6;
+   border-top: 2px solid #EDEDED;
+   height: 28px;
+	text-align : center;
+	font-weight : bold;
+}
+
+th, td {
+   color: #666666;
+	text-align : center;
+	padding : 5px;
+}
+
+td{
+	border-bottom : 1px solid #EDEDED;
+}
+
+#message_box{	margin-top: 20px;	}
+
+.article_list_title{	text-align : left;	width: 50%;	}
+.article_time{ text-align : right; }
+
+#article_title{	text-align : left;	width: 80%; font-size: 14px;	}
+
+#article_content{	text-align : left; height : 200%; padding:15px;}
+
+.article_first{	background-color : $cfcfcf;	}
+
+.article_menu{
+	float : right;
+	margin-right : 20px;
+}
+
+/*---------------------------------------------write------------------------------------*/
+
+#write_article{
+      width: 100%;
+      margin:0 auto;
+      text-align:center;    
+}
+
+
+#loginplz{
+      width:300px;
+      text-align:center;
+      margin:100px auto;
+}
+
+#gologin{
+      font-size:15px;
+      margin-top:20px;
+      padding:5px;
+}
+.write_col{	padding:10px;	}
+input #write_title{	height : 10px; }
+
+.blanks{	margin:0 5px 0 10px;	}
+
+
+
+/*------------------------------------------pagination--------------------------------*/
+
+#pagination{
+	text-align : center;
+	font-size : 14px;
+	
+}
+
+strong{
+	font-weight : bold;
+	color : orange;
+}
+
+
+/*-------------------------------------------comment---------------------------------------*/
+#comment_form{
+}
+
+td.comment_time{
+	width : 100px;
+}
+
+td.comment_content{
+	text-align : left;
+}
+
+th.comment_writer{
+	width : 10%;
+}
+	
+
+	
+	

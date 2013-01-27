@@ -1,0 +1,48 @@
+/* ---------------------------------< Login >----------------------------*/
+#login_table{
+      margin:50px 0 0 150px;font-size:20px;
+      }
+.inputbox{
+      background:url(../images/input.png) no-repeat;overflow: hidden;border:0px; 
+          background-position:left bottom;width:150px;height:25px;font-size:15px;padding-left:15px;
+          }
+.table_size{
+      width:120px;height: 40px; text-align:right; padding-right:20px;
+      }
+#submit_btn{
+      background:url(../images/login_btn.png) no-repeat;overflow: hidden;border:0px; 
+          background-position:right bottom;width:100px;height:35px;font-size:17px;margin:0 0 20px 170px;padding:9px 0 0 4px;
+          }
+          
+.login_error{
+      background-color:#f9f492;
+      padding-left:30px;
+}
+
+#find_info{
+      margin-left:160px;
+      padding:10px;
+      width:400px;
+      background-color:#4CB1E5;
+      color:#0066FF;
+      text-align:center;
+}
+
+#show_id{
+      background-color:#0066FF;
+      width:300px;
+      margin:50px 0 0 150px;
+      text-align:center;
+}
+
+#title{
+      
+      text-align:center;
+}
+
+#find_id_pass{
+      width:300px;
+      margin:50px 0 0 150px;
+    
+      
+}

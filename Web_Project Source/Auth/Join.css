@@ -1,0 +1,75 @@
+.agreement{
+      
+      font-size:13px;
+      
+}
+#agree, #agree1{
+      margin:20px 0 10px 80px;
+      
+}
+
+#chk_agree{
+      
+      margin-left:200px;
+      margin-top:10px;
+      padding:4px;
+}
+
+#notice{
+      margin-bottom:10px;
+      font-size:15px;
+      color:#000;
+}
+
+#submit_btn{
+    padding:2px;
+    margin:10px 0 0 250px;
+}
+
+
+
+
+.table_title{
+      width:150px;
+      height:20px;
+      text-align:right;
+      padding-right:20px;
+      border-right:1px solid;
+}
+
+
+.table_cont{
+      padding-left:5px;
+   
+}
+
+#join_notice{
+      color:#DA0000;
+      margin-bottom:10px;
+}
+
+.must_input{
+      color:#DA0000;
+      font-size:18px;
+      margin-right:5px;
+}
+
+ 
+input.error, textarea.error{
+  border:1px dashed red;
+}
+label.error{
+  margin-left:20px;
+  color:red;
+}
+
+
+input.error, textarea.error{
+  border:1px dashed red;
+}
+label.error{
+  display:inline;
+  color:red;
+}
+
+

@@ -1,0 +1,26 @@
+div.section_1{
+      width:650px;
+      margin-bottom:10px;
+      -moz-border-radius: 5px;
+      border-radius: 5px;
+      overflow:auto;
+}
+
+div.section h1{
+      width:600px;
+      padding: 4px 6px 4px 44px;
+      border-bottom: 1px solid; #888;     
+      background: #FFF;
+      -moz-border-radius-topleft: 5px;
+      -moz-border-radius-topright: 5px;
+      border-radius: 5px 5px 0 0;
+}
+
+
+
+
+#question h1, #exclamation h1  { 
+      background: #FFF url("../images/eee.png") no-repeat 4px center; 
+}
+
+
